@@ -13,6 +13,7 @@ export default function Section () {
               <Image
                 layout='fill'
                 objectFit='cover'
+                placeholder="blur"
                 src={man} />
             </div>
 
