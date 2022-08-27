@@ -1,4 +1,7 @@
-export default function Section () {
+import Image from 'next/image'
+import man from '../../public/man.jpeg'
+
+export default function Section() {
   return (
     <>
       <section>
@@ -7,11 +10,10 @@ export default function Section () {
             <div
               className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last"
             >
-              <img
-                className="absolute inset-0 object-cover w-full h-full"
-                src="https://www.hyperui.dev/photos/man-1.jpeg"
-                alt="Man using a computer"
-              />
+              <Image
+                layout='fill'
+                objectFit='cover'
+                src={man} />
             </div>
 
             <div className="lg:py-24">
