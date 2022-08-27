@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import man from '../../public/man.jpeg'
 
-export default function Section() {
+export default function Section () {
   return (
     <>
       <section>
